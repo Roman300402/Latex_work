@@ -1,4 +1,4 @@
-# Proyecto de Estadística y Econometría en LaTeX
+# Libro de Estadística y Econometría en LaTeX
 
 Este repositorio contiene el código fuente y la estructura modular del documento académico. El proyecto está diseñado con una arquitectura de directorios encapsulada por capítulos, separando los recursos gráficos temáticamente en Estadística y Econometría.
 
