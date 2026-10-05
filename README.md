@@ -46,3 +46,27 @@ Proyecto_Estadistica_Econometria/
     ├── AppLGNniid.tex
     ├── ApendiceProbabilidad.tex        
     └── Cuadros_Distribuciones.tex
+
+## Nomenclatura de Imágenes
+
+Todos los archivos de figura siguen el estándar: `[ID]_[desc]_[tip].eps`
+
+### Estructura del Nombre
+- **[ID]** - Módulo + Capítulo (3 caracteres máx)
+  - `S` = Estadística, `E` = Econometría, `A` = Apéndices
+  - Ejemplo: `S0a`, `E1`, `A2BIS`
+  
+- **[desc]** - Descriptor corto (3-5 caracteres, minúsculas, sin acentos)
+  - Ejemplo: `plano`, `densx`, `error`, `resid`
+  
+- **[tip]** - Tipo de gráfico
+  - `plt` = Plot (funciones, distribuciones)
+  - `dgm` = Diagrama (esquemas conceptuales)
+  - `sct` = Scatter (dispersión de datos)
+
+### Ejemplo
+```
+S0a_plano_dgm.eps     → Estadística, Buffon, Diagrama del Plano
+E1_error_plt.eps      → Econometría, MCO, Plot de Errores
+A2_densx_sct.eps      → Apéndices, Cap2, Scatter de Densidad
+```
